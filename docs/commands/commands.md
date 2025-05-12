@@ -1,13 +1,15 @@
-<h1> Table of contents </h1>
-
+<h1 id="commands"> Table of contents </h1>
+<nav>
+<ul>
 1. <a href="#basic">Basic</a>
-    - <a href="#cd">cd</a>
+    <li><a href="#cd">cd</a> </li>
     - pwd
     - ls
     - man
     - echo
-
-2. [Files](#files)
+  </ul>
+</nav>
+1. [Files](#files)
     - cp
     - mv
     - mkdir
@@ -19,7 +21,7 @@
     - wc
     - 
     -
-3. [Data](#data)
+2. [Data](#data)
     - cat
     - touch
     - cut
@@ -31,13 +33,13 @@
     - uniq
     -
 
-4. [Process](#process)
+3. [Process](#process)
     - ps
     - kill
     - top
     -
 
-5. [System](#system) 
+4. [System](#system) 
     - du
     - df
     - free
