@@ -4,7 +4,6 @@
     - cd
     - pwd
     - ls
-    - cd
     - man
     - echo
 
@@ -18,7 +17,7 @@
     - diff
     - patch
     - wc
-    - wget
+    - 
     -
 3. [Data](#data)
     - cat
@@ -49,7 +48,13 @@
     - unmount
     - uname
     - uptime
-    -
+    - date
+    - cal
+    - uptime
+    - w
+    - whoami
+    - whereis
+    - which 
 
 
 
@@ -62,6 +67,10 @@
     - ftp
     - sftp
     - who
+    - whois
+    - systemctl !!!
+    - dig
+    - wget
     - 
 - [Sources](#sources)
 
@@ -84,7 +93,8 @@
     - patch
     - wc
     - wget
-    -
+    - locate
+    - 
 ---
 ## Data
     - cat
@@ -101,8 +111,10 @@
 ## Process
     - ps
     - kill
+    - killall
     - top
-    -
+    - bg
+    - fg
 ---
 ## System
     - du
