@@ -74,13 +74,42 @@
 
 - [Sources](#sources)
 
-## Basic
-    - cd
-    - pwd
-    - ls
-    - cd
-    - man
-    - echo
+<h2> Basic </h2>
+<h3> cd </h3>
+<p> cd - change directory
+      
+```bash
+cd [options] [path] 
+```
+options:
+<br> -L
+<br> -P
+<br> -e
+<br> -@
+
+example:
+```bash
+cd /home 
+cd ~
+cd /usr/bin/
+cd ..
+cd -
+```
+
+</p>
+
+-----
+
+<h3> pwd </h3>
+<p>
+
+</p>
+
+-----
+
+### ls
+### man
+### echo 
 
 ## Files
     - cp
