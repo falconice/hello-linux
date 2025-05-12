@@ -1,15 +1,15 @@
 <h1 id="commands"> Table of contents </h1>
 <nav>
-<ul>
 1. <a href="#basic">Basic</a>
+<ul>
     <li><a href="#cd">cd</a> </li>
-    - pwd
-    - ls
-    - man
-    - echo
+    <li><a href="#pwd">pwd</a> </li>
+    <li><a href="#ls">ls</a> </li>
+    <li><a href="#man">man</a> </li>
+    <li><a href="#echo">echo</a> </li>
   </ul>
 </nav>
-1. [Files](#files)
+2. <a href="#files">Files</a>
     - cp
     - mv
     - mkdir
@@ -19,9 +19,8 @@
     - diff
     - patch
     - wc
-    - 
-    -
-2. [Data](#data)
+
+3. <a href="#data">Data</a>
     - cat
     - touch
     - cut
@@ -31,15 +30,15 @@
     - tail
     - sort
     - uniq
-    -
+    
 
-3. [Process](#process)
+4. <a href="#process">Process</a>
     - ps
     - kill
     - top
-    -
+    
 
-4. [System](#system) 
+5. <a href="#system">System</a>
     - du
     - df
     - free
@@ -60,7 +59,7 @@
 
 
 
-6. [Network](#network) 
+6. <a href="#network">Network</a>
     - ping
     - ssh
     - scp
@@ -74,15 +73,16 @@
     - dig
     - wget
 
-- [Sources](#sources)
+<a href="#sources">Sources</a>
 
 <h2 id="basic"> Basic </h2>
 <h3 id="cd"> cd </h3>
 <p> cd - change directory
       
-```bash
+<blockquote >
 cd [options] [path] 
-```
+</blockquote >
+
 options:
 <br> -L
 <br> -P
@@ -90,30 +90,30 @@ options:
 <br> -@
 
 example:
-```bash
+<blockquote >
 cd /home 
-cd ~
-cd /usr/bin/
-cd ..
-cd -
-```
+<br>cd ~
+<br>cd /usr/bin/
+<br>cd ..
+<br>cd -
+</blockquote >
 
 </p>
 
 -----
 
-<h3> pwd </h3>
+<h3 id="pwd"> pwd </h3>
 <p>
 
 </p>
 
 -----
 
-### ls
-### man
-### echo 
+<h3 id="ls"> ls </h3>
+<h3 id="man"> man </h3>
+<h3 id="echo"> echo </h3>
 
-## Files
+<h2 id="files"> Files </h2>
     - cp
     - mv
     - mkdir
@@ -127,7 +127,7 @@ cd -
     - locate
     - 
 
-## Data
+<h2 id="data"> Data </h2>
     - cat
     - touch
     - cut
@@ -139,7 +139,7 @@ cd -
     - uniq
     -
 
-## Process
+<h2 id="process"> Process </h2>
     - ps
     - kill
     - killall
@@ -147,7 +147,7 @@ cd -
     - bg
     - fg
 
-## System
+<h2 id="system"> System </h2>
     - du
     - df
     - free
@@ -160,7 +160,7 @@ cd -
     - uptime
     -
 
-## Network
+<h2 id="network"> Network </h2>
     - ping
     - ssh
     - scp
@@ -171,5 +171,4 @@ cd -
     - who
     - 
 
-
-## Sources
+<h2 id="sources"> Sources </h2>
