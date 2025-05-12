@@ -71,7 +71,7 @@
     - systemctl !!!
     - dig
     - wget
-    - 
+
 - [Sources](#sources)
 
 ## Basic
@@ -81,7 +81,7 @@
     - cd
     - man
     - echo
----
+
 ## Files
     - cp
     - mv
@@ -95,7 +95,7 @@
     - wget
     - locate
     - 
----
+
 ## Data
     - cat
     - touch
@@ -107,7 +107,7 @@
     - sort
     - uniq
     -
----
+
 ## Process
     - ps
     - kill
@@ -115,7 +115,7 @@
     - top
     - bg
     - fg
----
+
 ## System
     - du
     - df
@@ -129,8 +129,6 @@
     - uptime
     -
 
-
----
 ## Network
     - ping
     - ssh
@@ -141,6 +139,6 @@
     - sftp
     - who
     - 
----
----
+
+
 ## Sources
