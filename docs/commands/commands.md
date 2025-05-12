@@ -1,7 +1,7 @@
-# Table of contents
+<h1> Table of contents </h1>
 
-1. [Basic](#basic)
-    - cd
+1. <a href="#basic">Basic</a>
+    - <a href="#cd">cd</a>
     - pwd
     - ls
     - man
@@ -74,8 +74,8 @@
 
 - [Sources](#sources)
 
-<h2> Basic </h2>
-<h3> cd </h3>
+<h2 id="basic"> Basic </h2>
+<h3 id="cd"> cd </h3>
 <p> cd - change directory
       
 ```bash
