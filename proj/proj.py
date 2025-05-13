@@ -4,9 +4,11 @@ file_path="proj/hello_linux.txt"
 with open(file_path, "r") as f:
      content = list(filter(None, f.read().split('\n')))
      
-     headers=list()
-     commands=list()
-     count=0
+     headers=list() #headers
+     commands=list() # command list
+     
+     count=0  # command count
+     
      for i in range(0,len(content)):
           word = content[i].split(' ') 
            
@@ -19,10 +21,9 @@ with open(file_path, "r") as f:
                commands.append(count-1)
                count=0
      
-     commands.append(count-2)
+     commands.append(count-2) #add command count to header: headers[i] <=> commands[i+1]
       
      for i in range(0,len(headers)):
            print(headers[i]," ",commands[i+1])
      
-    # if (content[0].isdigit()):  print(content)
      
